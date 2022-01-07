@@ -24,7 +24,7 @@
       'cflags!': [
         '-fno-exceptions'
       ],
-      'target_arch': 'arm',
+      'target_arch': 'x64',
       'conditions': [
         ['OS=="mac"', {
           'xcode_settings': {
